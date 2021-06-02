@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1248px) {
+   .section{
+       display: flex;
+    transform: translate(0%,0%);
+   }
+}
+
+@media only screen and (max-width:956px){
+   
+.section{
+        display: flex;
+        flex-direction: column;  
+    }
+.section article{
+    display: flex;
+    justify-content: left;
+}
+#img-column{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%,0%);
+}
+
+#watch{
+    width: 100%;
+}
+#watchTime{
+    transform: translate(-50%,-60%);
+    font-size: 2em;
+}
+#heartbeat{
+    position: absolute;
+    transform: translate(-50%,-10%);
+}
+#BuyNow{
+    width: 100px;
+    height: 40px;
+}
+.main-heading{
+    display: flex;
+    font-size: 1.7em;
+    flex-wrap: wrap;
+}
+#content-column p{
+    display: flex;
+    overflow-x:scroll;
+    font-size: 1.2em;
+
+   
+}
+}
+
+@media only screen and (max-width:541px){
+    
+}
